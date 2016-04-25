@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>About Us</title>
+  </head>
+
+  <body style="background-color: MistyRose; color: MidnightBlue; text-indent: 50px">
+  	<h1>Impressum</h1>
+  	<hr>
+  	<h2>Autoren</h2>
+  	<p title="Autoren">Priska Kohnen, Nikita Krohmer</p>
+
+  </body>
+
+</html>

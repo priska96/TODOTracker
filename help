@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>How to: Todo editieren</title>
+    <meta content="">
+    <style></style>
+  
+  </head>
+
+
+  <body style="background-color: MistyRose; color: MidnightBlue; text-indent: 50px">
+
+  <h1>How to: Todo editieren</h1>
+  <ol type="i">
+  	<li>Klicken Sie auf den Button "Bearbeiten..." neben einem Todo.</li>
+  	<li>Ver&auml;ndern Sie auf der n&auml;chsten Seite die Spalten "Beschreibung", "Deadline", "Fortschritt".</li>
+  	<li>Klicken Sie auf "Speichern".</li>
+  	<li>Auf der &Uuml;bersichtsseite sehen Sie den Eintrag nun ver&auml;ndert.</li>
+  </ol>  	
+
+  </body>
+
+</html>
