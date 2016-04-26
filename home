@@ -14,14 +14,41 @@
 	th, td {
     	padding: 50px;
 	}
+	#header {
+    background-color:lightsalmon;
+    color:white;
+    text-align:center;
+    padding:5px;
+	}
+	#navigation {
+    line-height:30px;
+    background-color:lightsalmon;
+    height:150px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+	}
+	#table {
+    float:left;
+    padding:10px;	 	 
+	}
 	</style>
   </head>
 
 
   <body style="background-color: MistyRose">
+  <div id="header">
+	<h1>To Do's</h1>
+  </div>
 
+  <div id="navigation">
+  	<a href="">To Do anlegen</a><br>
+  	<a href="">How To: To Do editieren</a><br>
+  	<a href="">Impressum</a> 
+  </div>
+
+  <div id="table">
    <table style="width:100%; text-align: center; color: MidnightBlue">
-   <caption>To Do's</caption>
    <tr>
     <th>Beschreibung</th>
     <th>Deadline</th>
@@ -50,8 +77,8 @@
     <td><button type="button">Bearbeiten...</button></td>
     <td><button type="button">L&ouml;schen...</button></td>
   </tr>
-</table> 
-  	
+  </table> 
+</div>
 
   </body>
 
