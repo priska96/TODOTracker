@@ -3,56 +3,67 @@
 
 <html>
 
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>TODO Tracker &aacute; la Priki</title>
-  </head>
+<head>
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>TODO Tracker &aacute; la Priki</title>
+</head>
 
 
-  <body >
-  <div id="header">
-	<h1>To Do's</h1>
-  </div>
+<body >
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">TODO Tracker</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li> <a href="add-todo.html">To Do anlegen</a></li>
+        <li> <a href="help.html">How To:To Do editieren</a></li>
+        <li> <a href="about.html">Impressum</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+   <h1>To Do's</h1>
 
-  <div id="navigation">
-  	<a href="">To Do anlegen</a><br>
-  	<a href="">How To: To Do editieren</a><br>
-  	<a href="">Impressum</a> 
-  </div>
 
-  <div id="table">
-   <table>
-   <tr>
-    <th>Beschreibung</th>
-    <th>Deadline</th>
-    <th>Fortschritt</th>
-    <th>Bearbeiten</th>
-    <th>L&ouml;schen</th>
-  </tr>
-  <tr>
-    <td>Beispielseite mit dem Bootstrap Framework anlegen</td>
-    <td>26. April 2016</td>
-    <td>0%</td>
-    <td><button type="button">Bearbeiten...</button></td>
-    <td><button type="button">L&ouml;schen...</button></td>
-  </tr>
-  <tr>
-    <td>R&uuml;cksprache mit den korallen Anton und Tim</td>
-    <td>02. Mai 2016</td>
-    <td>0%</td>
-    <td><button type="button">Bearbeiten...</button></td>
-    <td><button type="button">L&ouml;schen...</button></td>
-  </tr>
-  <tr>
-    <td>Schlaf nachholen</td>
-    <td>04.03.2017</td>
-    <td>OVER 9000</td>
-    <td><button type="button">Bearbeiten...</button></td>
-    <td><button type="button">L&ouml;schen...</button></td>
-  </tr>
+
+   <table class="table">
+    <thead>
+      <tr>
+        <th>Beschreibung</th>
+        <th>Deadline</th>
+        <th>Fortschritt</th>
+        <th>Bearbeiten</th>
+        <th>L&ouml;schen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Beispielseite mit dem Bootstrap Framework anlegen</td>
+        <td>26. April 2016</td>
+        <td>0%</td>
+        <td><button type="button">Bearbeiten...</button></td>
+        <td><button type="button">L&ouml;schen...</button></td>
+      </tr>
+      <tr>
+        <td>R&uuml;cksprache mit den korallen Anton und Tim</td>
+        <td>02. Mai 2016</td>
+        <td>0%</td>
+        <td><button type="button">Bearbeiten...</button></td>
+        <td><button type="button">L&ouml;schen...</button></td>
+      </tr>
+      <tr>
+        <td>Schlaf nachholen</td>
+        <td>04.03.2017</td>
+        <td>OVER 9000</td>
+        <td><button type="button">Bearbeiten...</button></td>
+        <td><button type="button">L&ouml;schen...</button></td>
+      </tr>
+    </tbody>
   </table> 
 </div>
 
-  </body>
+</body>
 
 </html>
