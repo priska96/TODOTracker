@@ -1,34 +1,48 @@
 <html>
 
 <head>
-
-	<title>Todo hinzuf&uuml;gen</title>
-	<meta content="">
-	<style></style>
+  <title>Todo hinzuf&uuml;gen</title>
+  <meta content="">
+  <style></style>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 
 </head>
 
+<body style="background-color: MistyRose; color: MidnightBlue; ">
 
-<body>
-	<div class="container">
-		<h1>Todo hinzuf&uuml;gen</h1>
-		<form role="form">
-			<div class="form-group">
-				<label for="description">Beschreibung:</label>
-				<input type="text" class="form-control" id="description" placeholder="Enter description"></input> 
-			</div>
-			<div class="form-group">
-				<label for="deadline">Deadline:</label>
-				<input type="date" class="form-control" id="deadline" placeholder="Enter deadline"></input> 
-			</div>
-			<div class="form-group">
-				<label for="progress">Fortschritt:</label>
-				<input type="text" class="form-control" id="progress" placeholder="Enter progress"></input> 
-			</div>
-			<button type="submit" class="btn btn-default">Speichern</button>
-			
-		</form> 
-	</div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">TODO Tracker</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li> <a href="add-todo.html">To Do anlegen</a></li>
+        <li> <a href="help.html">How To:To Do editieren</a></li>
+        <li> <a href="about.html">Impressum</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <h1>Todo hinzuf&uuml;gen</h1>
+    <form role="form">
+     <div class="form-group">
+      <label for="description">Beschreibung:</label>
+      <input type="text" class="form-control" id="description" placeholder="Enter description"></input> 
+    </div>
+    <div class="form-group">
+      <label for="deadline">Deadline:</label>
+      <input type="date" class="form-control" id="deadline" placeholder="Enter deadline"></input> 
+    </div>
+    <div class="form-group">
+      <label for="progress">Fortschritt:</label>
+      <input type="text" class="form-control" id="progress" placeholder="Enter progress"></input> 
+    </div>
+    <button type="submit" class="btn btn-default">Speichern</button>
+    
+  </form> 
+</div>
+
 </body>
 
 </html>
