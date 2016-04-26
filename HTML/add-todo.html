@@ -1,35 +1,50 @@
 <html>
 
-  <head>
+<head>
 
-    <title>Todo hinzuf&uuml;gen</title>
-    <meta content="">
-    <style></style>
+  <title>Todo hinzuf&uuml;gen</title>
+  <meta content="">
+  <style></style>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-  </head>
+</head>
 
 
-  <body style="background-color: MistyRose; color: MidnightBlue; ">
-  	
-  	<h1>Todo hinzuf&uuml;gen</h1>
-  	<form>
-  		<table>
-  			<tr>
-  				<td>Beschreibung:</td>
-  				<td><input type="text" name="description"></input></td>
-  			</tr>
-  			<tr>
-  				<td>Deadline:</td>
-  				<td><input type="date" name="deadline"></input></td>
-  			</tr>
-  			<tr>
-  				<td>Fortschritt:</td>
-  				<td> <input type="text" name="progress"></input></td>
-  			</tr>
-		</table>
-  		<input type="submit" value="Speichern">
-	</form> 
+<body style="background-color: MistyRose; color: MidnightBlue; ">
 
-  </body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="home.html">TODO Tracker</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li> <a href="add-todo.html">To Do anlegen</a></li>
+        <li> <a href="help.html">How To:To Do editieren</a></li>
+        <li> <a href="about.html">Impressum</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>Todo hinzuf&uuml;gen</h1>
+    <form>
+      <table>
+       <tr>
+        <td>Beschreibung:</td>
+        <td><input type="text" name="description"></input></td>
+      </tr>
+      <tr>
+        <td>Deadline:</td>
+        <td><input type="date" name="deadline"></input></td>
+      </tr>
+      <tr>
+        <td>Fortschritt:</td>
+        <td> <input type="text" name="progress"></input></td>
+      </tr>
+    </table>
+    <input type="submit" value="Speichern">
+  </form> 
+</div>
+
+</body>
 
 </html>
